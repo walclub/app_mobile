@@ -3,6 +3,7 @@ import { ApiService } from '../services/api.service';
 import { InfoService } from '../services/info.service';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Transaction, Contact } from '../models/transaction';
+import numeral from 'numeral';
 
 @Component({
   selector: 'app-transferir',
@@ -44,7 +45,7 @@ export class TransferirPage{
       if (data["success"] === false) {
         this.saldo = 0;
       } else {
-        this.saldo = data["message"]
+        this.saldo = numeral(data["message"]).format('0,0')
       }
     });
   }
