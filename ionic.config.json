@@ -1,0 +1,7 @@
+{
+  "name": "walclub",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

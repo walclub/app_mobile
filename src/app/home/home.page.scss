@@ -1,0 +1,69 @@
+
+.main-content{
+	margin: -10px 40px 20px;
+}
+
+.saldo-info{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    border:1px solid #CECECE;
+    padding-bottom: 20px;
+  }
+
+.saldo{
+	margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.expires{
+	font-size:14px;
+	margin: 30px auto;
+    width: 100%;
+    text-align: center;
+}
+
+ .saldo h1{
+	font-size: 60px;
+	color: #0071CE;
+}
+
+.user-title{
+	margin: 30px auto 0;
+    width: 100%;
+    text-align: center;
+}
+
+h1.last{	
+	font-size: 16px;
+}
+
+.last-points{
+	padding: 0 30px;
+}
+
+.btn{
+  width: 100%;
+	text-align: center;
+	margin:50px 0 0 0;
+}
+
+.button-native {
+    padding-left: unset;
+    padding-right: unset;
+    -webkit-padding-start: var(--padding-start);
+    padding-inline-start: var(--padding-start);
+    -webkit-padding-end: var(--padding-end);
+    padding-inline-end: var(--padding-end);
+    border-radius: 100px!important;
+}
+
+#cash{
+    font-size: 35px;
+    float:right;
+}
+
+#cash:hover{
+    cursor: pointer;
+}
